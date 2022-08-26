@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ReneeY">
+    <meta name="description" content="The Little Taco Shop">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Little Taco Shop</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to The Little Taco Shop</h1>
+         <nav aria-label="primary-navgation">
+             <ul>
+                <li>
+                <a href="#about">About LTS</a>
+                </li>
+                <li>
+                <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                <a href="#hours">Store Hours</a>
+                </li>
+                <li>
+                <a href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+        <img src="img/tacos_and_drink_400x267.png" alt="Tacos and a Drink">
+        <figcaption>Tacos and a Drink</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article id="about">
+            <section>
+                <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+                <p>
+                    <abbr title="The Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a <strong>love of tacos</strong> 🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.
+                </p>
+                <h3>Taco Trivia</h3>
+                <aside>
+                    <details>
+
+                    <summary>When did the tacos first appear in the Unitied States?</summary>
+                    <p>Jeffrey M. Pilcher,taco historian and professor of history at the Univeristy of Minnesota, says the earliest mention of tacos in the United States are in a newpaper from 1905. </p>
+                    <p>(Source:<cite><a href="https://www.smithsonianmag.com/" target="_blank">Smithsonian Magazine</a></cite>)</p>
+                    </details>
+                </aside>
+
+            </section>
+         </article>
+         <hr>
+         <article id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <caption>Our Tacos</caption>
+                <thead>
+                    <tr>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">Crunchy</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Chips & Salsa $2</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+
+            <hr>
+            <p>Copyright &copy; The Little Taco Shop</p>
+
+         </article>
+         <article id="hours">
+            <h2>Little Taco Shop Hours</h2>
+            <nav aria-label="sub-navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About LTS</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+
+            </nav>
+            <figure>
+                <img src="img/tacos_tray_400x267.png" alt="A Tray of Tasfy Tacos">
+                <figcaption>A Tray of Tasty Tacos</figcaption>
+            </figure>
+            <hr>
+            <p>We are open 7 days a week!</p>
+            <dl>
+                <dt>Sunday-Thurday</dt>
+                <dd><time datetime="11:00">11am</time>-<time datetime="21:00">9pm</time></dd>
+                <dt><Friday-Saturday>Friday-Saturday</Friday-Saturday></dt>
+                <dd><time datetime="11:00">11am</time>-<time datetime="23:00">11pm</time></dd>
+            </dl>
+            <a href="#">Back to Top</a>
+            <hr>
+            <footer>
+                <p>Copyrigh &copy; The Little Taco Shop</p>
+
+            </footer>
+
+
+         </article>
+         <article id="contact">
+            <h2>Contact Us</h2>
+            <nav aria-label="sub-navigation">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#about">About LTS</a></li>
+                    <li> <a href="#menu">Our Menu</a></li>
+                    <li> <a href="#hour">Store Hours</a></li>
+
+            </nav>
+                </ul>
+                <figure>
+
+                <img src="img/tacos_close_up_400x260.png" alt="Little Taco Shop Tacos">
+                <figcaption>Little Taco Shop Tacos</figcaption>
+                </figure>
+                <section>
+                    <h3>Our Contact Form</h3>
+                        <form action="https://httpbin.org/get" method="get">
+                            <fieldset>
+                                <legend>Send Us A Message</legend>
+                                <p>
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required autofocus>
+                                </p>
+                                <p>
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email" id="email" placeholder="your email" autocomplete="on" required autofocus>
+                                </p>
+                                <p>
+                                    <label for="food">Your favorite food</label>
+                                    <select name="food" id="food" multiple size="5">
+                                        <optgroup label="Soft Tacos">
+                                            <option value="chicken">Chicken</option>
+                                            <option value="beef">Beef</option>
+
+                                        </optgroup>
+                                        <optgroup label="Crunchy Tacos">
+                                            <option value="chicken">Chicken</option>
+                                            <option value="beef">Beef</option>
+                                        </optgroup>
+                                        <option value="other">Other</option>
+                                    </select>
+
+                                </p>
+                                <p>
+                                    <label for="message">Your Message:</label>
+                                    <br>
+                                    <input type="text" name="message" id="message" placeholder="Type your message here">
+                                </p>
+                            </fieldset>
+                        </form>
+                        <br>
+                        <button type="submit">Send</button>
+                        <button type="reset">Reset</button>
+                </section>
+                <section>
+                    <h3>Our Location</h3>
+                    <p>
+                        <address>555 Taco Temptation Lane, Suite T <br>
+                        Kansas City, MO 55555-5555</address>
+
+                    </p>
+                    <p>
+                        Phone:<phone>555-555-5555</phone>
+                    </p>
+                </section>
+                <a href="#">Back to Top</a>
+
+         </article>
+
+
+    </main>
+
+</body>
+</html>
